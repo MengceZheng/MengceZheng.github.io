@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/) and works as the head of the Cyber Security major. 
+I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/) and work as the head of the Cyber Security major. 
 Before joining ZWU, I worked as a postdoctoral researcher at [School of Information Science and Technology](https://sist.ustc.edu.cn/main.htm) of [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) from 2018.12 to 2020.12 under collaboration with Prof. [Nenghai Yu](http://staff.ustc.edu.cn/~ynh/) and Prof. [Honggang Hu](https://dsxt.ustc.edu.cn/zj_js.asp?zzid=3707).
 From 2009.09 to 2018.11, I studied at USTC, where I received my bachelor's degree in 2013 and the doctoral degree in 2018, advised by Prof. Honggang Hu. 
 I conducted academic visits at [The University of Tokyo (UTokyo)](https://www.u-tokyo.ac.jp/en/) from 2016.10 to 2017.09 under collaboration with Prof. [Noboru Kunihiro](https://www.crisec.cs.tsukuba.ac.jp/kunihiro/english/).  
@@ -25,6 +25,7 @@ I conducted academic visits at [The University of Tokyo (UTokyo)](https://www.u-
 My main research interests include cryptographic algorithms and their applications, including public-key cryptanalysis, side-channel analysis, quantum cryptographic protocols, etc.
 I have presided over one National Natural Science Foundation project, and participated in multiple other scientific research projects. 
 I have published more than 30 papers <a href='https://scholar.google.com/citations?user=WgoBZnkAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FMengceZheng%2FMengceZheng.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, in related journals and conferences such as SCIENCE CHINA Information Sciences, Theoretical Computer Science, Quantum Information Processing, CHES, ACISP, etc.
+Further information on my experience and work can be found in my attached [CV](/assets/files/CV.pdf).
 If you are interested in similar research and seeking any form of academic cooperation, please feel free to email me at [mengce.zheng@gmail.com](mailto:mengce.zheng@gmail.com).
 
 
@@ -50,20 +51,16 @@ If you are interested in similar research and seeking any form of academic coope
 
 **Conference Proceedings**
 
-
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. *CIS* 2021.
 - Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. *TrustCom* 2021.
 - Zhimin Luo, **Mengce Zheng**, Ping Wang, Minhui Jin, Jiajia Zhang, Honggang Hu. Towards Strengthening Deep Learning-based Side Channel Attacks with Mixup. *TrustCom* 2021.
 - Wenlong Cao, Fan Huang, **Mengce Zheng**, Honggang Hu. Attacking FPGA-based Dual Complementary AES Implementation Using HD and SD Models. In: *CIS* 2020.
 - Minhui Jin, **Mengce Zheng**, Honggang Hu, Nenghai Yu. An Enhanced Convolutional Neural Network in Side-Channel Attacks and Visualization. In: *WCSE* 2020.
-- Zhengguang Shi, Fan Huang, **Mengce Zheng**, Wenlong Cao, Ruizhe Gu, Honggang Hu, Nenghai Yu. Research on Online Leakage Assessment. In: *ICPCSEE* 2020.
 - **Mengce Zheng**, Honggang Hu. Implicit Related-Key Factorization Problem on the RSA Cryptosystem. In: *CANS* 2019.
 - **Mengce Zheng**, Honggang Hu. Implicit-Key Attack on the RSA Cryptosystem. In: *SciSec* 2019.
 - Jiehui Nan, **Mengce Zheng**, Honggang Hu. Post-Quantum Pseudorandom Functions from Mersenne Primes. In: *FCS* 2019.
-- Jiehui Nan, **Mengce Zheng**, Zilong Wang, Honggang Hu. A General Construction for Password-Based Authenticated Key Exchange from Witness PRFs. In: *FCS* 2019.
 - Zilong Wang, Honggang Hu, **Mengce Zheng**, Jiehui Nan. Symmetric Lattice-Based PAKE from Approximate Smooth Projective Hash Function and Reconciliation Mechanism. In: *FCS* 2019.
 - **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Cryptanalysis of RSA Variants with Modified Euler Quotient. In: *AFRICACRYPT* 2018.
-- Xiaolong Yang, **Mengce Zheng**, Honggang Hu. Generic Generating Functions for the Counting Functions of Quadratic Functions with Prescribed Walsh Spectrum. In: *DSC* 2018
 - **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference. In: *ACISP* 2017.
 
 # 💬 Presentations
