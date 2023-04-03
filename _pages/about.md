@@ -37,7 +37,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 📝 Publications 
 
-**Journal Articles**
+## Journal Articles
 
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/zheng2206.pdf)\]
 - **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/assets/files/zheng2110.pdf)\]
@@ -49,7 +49,7 @@ If you are interested in similar research and seeking any form of academic coope
 - **Mengce Zheng**, Honggang Hu, Zilong Wang. Generalized cryptanalysis of RSA with small public exponent. *SCIENCE CHINA Information Sciences* 59(3): 32108:1--32108:10 (2016). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5325-7) [PDF](/assets/files/zheng1603.pdf)\]
 - **Mengce Zheng**, Honggang Hu. Cryptanalysis of Prime Power RSA with two private exponents. *SCIENCE CHINA Information Sciences* 58(11): 1--8 (2015). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5409-4) [PDF](/assets/files/zheng1511.pdf)\]
 
-**Conference Proceedings**
+## Conference Proceedings
 
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. *CIS* 2021.
 - Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
@@ -65,6 +65,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 💬 Presentations
 
+- Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/assets/files/slides20.pdf)\]
 - Implicit Related-Key Factorization Problem on the RSA Cryptosystem, The 18th International Conference on Cryptology and Network Security, Fuzhou, China, 2019. \| \[[Slides](/assets/files/slides19_2.pdf)\]
 - Implicit-Key Attack on the RSA Cryptosystem, The 2nd International Conference on Science of Cyber Security, Nanjing, China, 2019. \| \[[Slides](/assets/files/slides19_1.pdf)\]
 - Cryptanalysis of RSA Variants with Modified Euler Quotient, The 10th International Conference on the Theory and Applications of Security and Cryptography, Marrakesh, Morocco, 2018. \| \[[Slides](/assets/files/slides18.pdf)\]
