@@ -15,15 +15,15 @@ google_scholar_stats_use_cdn : true
 google_analytics_id      : G-FVY3NGJ5HC
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification : OVcVWbEzVx3aXJ515wp-PFG5BK6aNdsbTH_z8ZbUN9g
+bing_site_verification   : 9a268b6998f5b7595547f2a6130485ab
+baidu_site_verification  : codeva-w058BAx6Mh
 
 # Site Author
 author:
   name             : "Mengce Zheng"
   avatar           : "images/avatar.jpg"
-  bio              : "Associate Professor"
+  bio              : "Cryptographer"
   location         : "Ningbo, China"
   employer         :
   pubmed           : 
