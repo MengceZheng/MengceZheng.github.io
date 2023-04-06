@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Mengce Zheng (郑梦策)"
-description              : "Cryptography and Security"
+description              : "Information Security"
 repository               : "MengceZheng/MengceZheng.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/avatar.jpg"
   bio              : "Cryptographer"
   location         : "Ningbo, China"
-  employer         :
+  employer         : "ZWU"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=WgoBZnkAAAAJ"
   email            : "mengce.zheng@gmail.com"
