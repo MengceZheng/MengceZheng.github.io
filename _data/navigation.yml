@@ -1,10 +1,13 @@
-# main links links
+# main links
 main:
   - title: "About Me"
     url: "/#about-me"
 
   - title: "News"
     url: "/#-news"
+
+  - title: "Projects"
+    url: "/#-projects"    
 
   - title: "Publications"
     url: "/#-publications"

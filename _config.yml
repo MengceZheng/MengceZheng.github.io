@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Mengce Zheng (郑梦策)"
-description              : "Information Security"
+description              : "Working on Cryptography and Information Security"
 repository               : "MengceZheng/MengceZheng.github.io"
 google_scholar_stats_use_cdn : true
 url                      : https://mengcezheng.github.io
@@ -22,9 +22,9 @@ baidu_site_verification  : codeva-w058BAx6Mh
 
 # Site Author
 author:
-  name             : "Mengce Zheng"
+  name             : "Mengce Zheng (郑梦策)"
   avatar           : "images/avatar.jpg"
-  bio              : "Cryptographer"
+  bio              : "Associate Professor"
   location         : "Ningbo, China"
   employer         : "ZWU"
   pubmed           : 

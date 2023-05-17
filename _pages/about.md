@@ -35,6 +35,16 @@ If you are interested in similar research and seeking any form of academic coope
 - *2022.06*: One paper entitled "Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring" was accepted by Mathematics. 
 - *2022.03*: I was selected as Zhejiang Province University Leading Talent Training Program -- Young Talents. 
 
+# 🧰 Projects
+
+## Lattice-Based Cryptanalysis
+
+## Post-Quantum Cryptography
+
+## Quantum Network Protocols
+
+## Side-Channel Analysis
+
 # 📝 Publications 
 
 ## Journal Articles
@@ -43,7 +53,6 @@ If you are interested in similar research and seeking any form of academic coope
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/zheng2206.pdf)\]
 - **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/assets/files/zheng2110.pdf)\]
 - **Mengce Zheng**, Kaiping Xue, Shangbin Li, Nenghai Yu. A practical quantum designated verifier signature scheme for E-voting applications. *Quantum Information Processing* 20(7): 1--22 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03162-5) [PDF](/assets/files/zheng2107.pdf)\]
-- Zhigang Chen, Gang Hu, **Mengce Zheng**, Xinxia Song, Liqun Chen. Bibliometrics of Machine Learning Research Using Homomorphic Encryption. *Mathematics* 9: 2792 (2021). \| \[[HTML](https://www.mdpi.com/2227-7390/9/21/2792) [PDF](/assets/files/chen2111.pdf)\]
 - Qidong Jia, Kaiping Xue, Zhonghui Li, **Mengce Zheng**, David S. L. Wei, Nenghai Yu. An improved QKD protocol without public announcement basis using periodically derived basis. *Quantum Information Processing* 20(2): 69 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03000-8) [PDF](/assets/files/jia2102.pdf)\]
 - **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Lattice-based cryptanalysis of RSA with implicitly related keys. *IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences* 103(8): 959--968 (2020). \| \[[HTML](https://search.ieice.org/bin/summary.php?id=e103-a_8_959) [PDF](/assets/files/zheng2008.pdf)\]
 - Jiajia Zhang, **Mengce Zheng**, Jiehui Nan, Honggang Hu, Nenghai Yu. A Novel Evaluation Metric for Deep Learning-Based Side Channel Analysis and Its Extended Application to Imbalanced Data. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2020(3): 73--96 (2020). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/8583) [PDF](/assets/files/zhang2006.pdf)\]
