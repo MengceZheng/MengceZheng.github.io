@@ -31,19 +31,19 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 🔥 News
 
-- *2023.03*: One paper entitled "Solving Generalized Bivariate Integer Equations and Its Application to Factoring with Known Bits" was accepted by IEEE Access.
-- *2022.06*: One paper entitled "Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring" was accepted by Mathematics. 
-- *2022.03*: I was selected as Zhejiang Province University Leading Talent Training Program -- Young Talents. 
+- *2023.07*: One paper entitled "Generalized Implicit-Key Attacks on RSA" was accepted by *Journal of Information Security and Applications*.
+- *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents. 
+- *2023.03*: One paper entitled "Solving Generalized Bivariate Integer Equations and Its Application to Factoring with Known Bits" was accepted by *IEEE Access*. 
 
 # 🧰 Projects
 
-## Lattice-Based Cryptanalysis
+- Lattice-Based Cryptanalysis
 
-## Post-Quantum Cryptography
+- Post-Quantum Cryptography
 
-## Quantum Network Protocols
+- Quantum Network Protocols
 
-## Side-Channel Analysis
+- Side-Channel Analysis
 
 # 📝 Publications 
 
