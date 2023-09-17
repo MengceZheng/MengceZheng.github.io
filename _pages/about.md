@@ -31,9 +31,10 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 🔥 News
 
+- *2023.08*: I was selected as one of 2023 CSC Local Cooperation Program Visiting Scholar.
 - *2023.07*: One paper entitled "Generalized Implicit-Key Attacks on RSA" was accepted by *Journal of Information Security and Applications*.
-- *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents. 
-- *2023.03*: One paper entitled "Solving Generalized Bivariate Integer Equations and Its Application to Factoring with Known Bits" was accepted by *IEEE Access*. 
+- *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents.  
+- *2023.03*: One paper entitled "Solving Generalized Bivariate Integer Equations and Its Application to Factoring with Known Bits" was accepted by *IEEE Access*.  
 
 # 🧰 Projects
 
@@ -49,6 +50,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## Journal Articles
 
+- **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461)\]
 - **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/assets/files/zheng2304.pdf)\]
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/zheng2206.pdf)\]
 - **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/assets/files/zheng2110.pdf)\]
@@ -83,6 +85,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 🏆 Honors and Awards
 
+- *2023*: Ningbo Youth Science and Technology Innovation Leading Talent Program  
 - *2022*: Zhejiang Province University Leading Talent Training Program -- Young Talents
 - *2021*: Ningbo Leading Talent Training Project -- The Third Level  
 - *2016*: CSC Scholarship for Joint Doctoral Students
@@ -96,6 +99,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 👨‍🏫 Teaching
 
+- *2023 Fall*:    Blockchain Theory and Technology & Integrated Information Security Design and Practice  
 - *2023 Spring*:  Advanced Cryptography & Blockchain Development and Application
 - *2022 Fall*:    Data Structures and Algorithms
 - *2022 Spring*:  Cybersecurity Theory and Technology
