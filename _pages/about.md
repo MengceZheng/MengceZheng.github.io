@@ -31,6 +31,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 🔥 News
 
+- *2024.01*: One paper entitled "Revisiting Small Private Key Attacks on Common Prime RSA" was accepted by *IEEE Access*.
 - *2023.10*: One paper entitled "Partial Key Exposure Attack on Common Prime RSA" was accepted by *Inscrypt 2023*.
 - *2023.08*: I was selected as one of 2023 CSC Local Cooperation Program Visiting Scholar.
 - *2023.07*: One paper entitled "Generalized Implicit-Key Attacks on RSA" was accepted by *Journal of Information Security and Applications*.
@@ -51,6 +52,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## Journal Articles
 
+- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/assets/files/zheng2401.pdf)\]
 - **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461)\]
 - **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/assets/files/zheng2304.pdf)\]
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/zheng2206.pdf)\]
@@ -64,6 +66,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## Conference Proceedings
 
+- **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061)\]
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. *CIS* 2021.
 - Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
 - Zhimin Luo, **Mengce Zheng**, Ping Wang, Minhui Jin, Jiajia Zhang, Honggang Hu. Towards Strengthening Deep Learning-based Side Channel Attacks with Mixup. *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2103.05833) [ePrint](https://eprint.iacr.org/2021/312)\]
@@ -86,6 +89,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 🏆 Honors and Awards
 
+- *2023*: CSC Local Cooperation Program for Visiting Scholar
 - *2023*: Ningbo Youth Science and Technology Innovation Leading Talent Program  
 - *2022*: Zhejiang Province University Leading Talent Training Program -- Young Talents
 - *2021*: Ningbo Leading Talent Training Project -- The Third Level  
