@@ -34,8 +34,7 @@ If you are interested in similar research and seeking any form of academic coope
 - *2023.10*: One paper entitled "Partial Key Exposure Attack on Common Prime RSA" was accepted by *Inscrypt 2023*.
 - *2023.08*: I was selected as one of 2023 CSC Local Cooperation Program Visiting Scholar.
 - *2023.07*: One paper entitled "Generalized Implicit-Key Attacks on RSA" was accepted by *Journal of Information Security and Applications*.
-- *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents.  
-- *2023.03*: One paper entitled "Solving Generalized Bivariate Integer Equations and Its Application to Factoring with Known Bits" was accepted by *IEEE Access*.  
+- *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents.
 
 # 🧰 Projects
 
