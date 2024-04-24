@@ -30,6 +30,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 🔥 News
 
+- *2024.04*: One paper entitled "Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem" was accepted by *ACISP 2024*.
 - *2024.01*: One paper entitled "Revisiting Small Private Key Attacks on Common Prime RSA" was accepted by *IEEE Access*.
 - *2023.10*: One paper entitled "Partial Key Exposure Attack on Common Prime RSA" was accepted by *Inscrypt 2023*.
 - *2023.08*: I was selected as one of 2023 CSC Local Cooperation Program Visiting Scholar.
@@ -102,6 +103,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 # 👨‍🏫 Teaching
 
+- *2024 Spring*:  Cryptography Theory and Technology & Advanced Cryptography
 - *2023 Fall*:    Blockchain Theory and Technology & Integrated Information Security Design and Practice  
 - *2023 Spring*:  Advanced Cryptography & Blockchain Development and Application
 - *2022 Fall*:    Data Structures and Algorithms
