@@ -9,26 +9,26 @@ redirect_from:
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "<https://cdn.jsdelivr.net/gh/>" | append: site.repository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "<https://raw.githubusercontent.com/>" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/) and work as the head of the Cyber Security major. 
+I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/) and work as the head of the Cyber Security major.
 Before joining ZWU, I worked as a postdoctoral researcher at [School of Information Science and Technology](https://sist.ustc.edu.cn/main.htm) of [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) from 2018.12 to 2020.12 under collaboration with Prof. [Nenghai Yu (俞能海)](https://faculty.ustc.edu.cn/yunenghai/zh_CN/index.htm) and Prof. [Honggang Hu (胡红钢)](https://faculty.ustc.edu.cn/huhonggang/zh_CN/index.htm).
-From 2009.09 to 2018.11, I studied at USTC, where I received my bachelor's degree in 2013 and the doctoral degree in 2018, advised by Prof. Honggang Hu. 
+From 2009.09 to 2018.11, I studied at USTC, where I received my bachelor's degree in 2013 and the doctoral degree in 2018, advised by Prof. Honggang Hu.
 I conducted academic visits at [The University of Tokyo (UTokyo)](https://www.u-tokyo.ac.jp/en/) from 2016.10 to 2017.09 under collaboration with Prof. [Noboru Kunihiro](https://www.crisec.cs.tsukuba.ac.jp/kunihiro/english/).  
 
 My main research interests include cryptographic algorithms and their applications, including public-key cryptanalysis, side-channel analysis, quantum cryptographic protocols, etc.
-I have presided over one National Natural Science Foundation project, and participated in multiple other scientific research projects. 
+I have presided over one National Natural Science Foundation project, and participated in multiple other scientific research projects.
 I have published more than 30 papers <a href='https://scholar.google.com/citations?user=WgoBZnkAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FMengceZheng%2FMengceZheng.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, in related journals and conferences such as SCIENCE CHINA Information Sciences, Theoretical Computer Science, Quantum Information Processing, CHES, ACISP, etc.
 Further information on my experience and work can be found in my attached [**CV**](/assets/files/CV.pdf).
 If you are interested in similar research and seeking any form of academic cooperation, please feel free to email me at [mengce.zheng@gmail.com](mailto:mengce.zheng@gmail.com).
 
-# 🔥 News
+## 🔥 News
 
 - *2024.04*: One paper entitled "Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem" was accepted by *ACISP 2024*.
 - *2024.01*: One paper entitled "Revisiting Small Private Key Attacks on Common Prime RSA" was accepted by *IEEE Access*.
@@ -37,7 +37,7 @@ If you are interested in similar research and seeking any form of academic coope
 - *2023.07*: One paper entitled "Generalized Implicit-Key Attacks on RSA" was accepted by *Journal of Information Security and Applications*.
 - *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents.
 
-# 🧰 Projects
+## 🧰 Projects
 
 - Lattice-Based Cryptanalysis
 
@@ -47,11 +47,11 @@ If you are interested in similar research and seeking any form of academic coope
 
 - Side-Channel Analysis
 
-# 📝 Publications 
+## 📝 Publications
 
-## Journal Articles
+### Journal Articles
 
-- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/assets/files/Zheng24.pdf)\]
+- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/assets/files/Zheng24.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
 - **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461) [PDF](/assets/files/Zheng23.pdf)\]
 - **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/assets/files/ZCW23.pdf)\]
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/Zheng22.pdf)\]
@@ -64,7 +64,7 @@ If you are interested in similar research and seeking any form of academic coope
 - **Mengce Zheng**, Honggang Hu, Zilong Wang. Generalized cryptanalysis of RSA with small public exponent. *SCIENCE CHINA Information Sciences* 59(3): 32108:1--32108:10 (2016). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5325-7) [PDF](/assets/files/ZHW16.pdf)\]
 - **Mengce Zheng**, Honggang Hu. Cryptanalysis of Prime Power RSA with two private exponents. *SCIENCE CHINA Information Sciences* 58(11): 1--8 (2015). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5409-4) [PDF](/assets/files/ZH15.pdf)\]
 
-## Conference Proceedings
+### Conference Proceedings
 
 - **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061)\]
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. *CIS* 2021.
@@ -79,7 +79,7 @@ If you are interested in similar research and seeking any form of academic coope
 - **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Cryptanalysis of RSA Variants with Modified Euler Quotient. In: *AFRICACRYPT* 2018.
 - **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference. In: *ACISP* 2017. \| \[[ePrint](https://eprint.iacr.org/2015/1137)\]
 
-# 💬 Presentations
+## 💬 Presentations
 
 - Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/assets/files/NJUPT20.pdf)\]
 - Implicit Related-Key Factorization Problem on the RSA Cryptosystem, The 18th International Conference on Cryptology and Network Security, Fuzhou, China, 2019. \| \[[Slides](/assets/files/CANS19.pdf)\]
@@ -87,7 +87,7 @@ If you are interested in similar research and seeking any form of academic coope
 - Cryptanalysis of RSA Variants with Modified Euler Quotient, The 10th International Conference on the Theory and Applications of Security and Cryptography, Marrakesh, Morocco, 2018. \| \[[Slides](/assets/files/AFRICACRYPT18.pdf)\]
 - Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference, The 22nd Australasian Conference on Information Security and Privacy, Auckland, New Zealand, 2017. \| \[[Slides](/assets/files/ACISP17.pdf)\]
 
-# 🏆 Honors and Awards
+## 🏆 Honors and Awards
 
 - *2023*: CSC Local Cooperation Program for Visiting Scholar
 - *2023*: Ningbo Youth Science and Technology Innovation Leading Talent Program  
@@ -96,13 +96,13 @@ If you are interested in similar research and seeking any form of academic coope
 - *2016*: CSC Scholarship for Joint Doctoral Students
 - *2015*: National Scholarship for Graduate Students
 
-# 📖 Educations
+## 📖 Educations
 
 - *2013 -- 2018*: PH.D. & M.S., University of Science and Technology of China, Hefei, China
 - *2016 -- 2017*: Visiting PH.D., The University of Tokyo, Tokyo, Japan
 - *2009 -- 2013*: B.E., University of Science and Technology of China, Hefei, China
 
-# 👨‍🏫 Teaching
+## 👨‍🏫 Teaching
 
 - *2024 Spring*:  Cryptography Theory and Technology & Advanced Cryptography
 - *2023 Fall*:    Blockchain Theory and Technology & Integrated Information Security Design and Practice  
