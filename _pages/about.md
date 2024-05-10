@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+## 👨‍💼 About Me
 
 I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/) and work as the head of the Cyber Security major.
 Before joining ZWU, I worked as a postdoctoral researcher at [School of Information Science and Technology](https://sist.ustc.edu.cn/main.htm) of [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) from 2018.12 to 2020.12 under collaboration with Prof. [Nenghai Yu (俞能海)](https://faculty.ustc.edu.cn/yunenghai/zh_CN/index.htm) and Prof. [Honggang Hu (胡红钢)](https://faculty.ustc.edu.cn/huhonggang/zh_CN/index.htm).
