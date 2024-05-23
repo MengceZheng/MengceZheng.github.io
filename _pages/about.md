@@ -53,7 +53,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
-- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/assets/files/Zheng24.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
+- **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/assets/files/Zheng24b.pdf)\]
+- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/assets/files/Zheng24a.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
 - **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461) [PDF](/assets/files/Zheng23.pdf)\]
 - **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/assets/files/ZCW23.pdf)\]
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/Zheng22.pdf)\]
