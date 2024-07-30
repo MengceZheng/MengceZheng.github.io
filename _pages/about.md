@@ -36,8 +36,6 @@ If you are interested in similar research and seeking any form of academic coope
 - *2024.01*: One paper entitled "Revisiting Small Private Key Attacks on Common Prime RSA" was accepted by *IEEE Access*.
 - *2023.10*: One paper entitled "Partial Key Exposure Attack on Common Prime RSA" was accepted by *Inscrypt 2023*.
 - *2023.08*: I was selected as one of 2023 CSC Local Cooperation Program Visiting Scholar.
-- *2023.07*: One paper entitled "Generalized Implicit-Key Attacks on RSA" was accepted by *Journal of Information Security and Applications*.
-- *2023.06*: I was selected as one of 2022 Ningbo Youth Science and Technology Innovation Leading Talents.
 
 ## 🧰 Projects
 
@@ -69,10 +67,11 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
+- **Mengce Zheng**. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024.
 - **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061)\]
-- Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. *CIS* 2021.
-- Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
-- Zhimin Luo, **Mengce Zheng**, Ping Wang, Minhui Jin, Jiajia Zhang, Honggang Hu. Towards Strengthening Deep Learning-based Side Channel Attacks with Mixup. *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2103.05833) [ePrint](https://eprint.iacr.org/2021/312)\]
+- Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. In: *CIS* 2021.
+- Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
+- Zhimin Luo, **Mengce Zheng**, Ping Wang, Minhui Jin, Jiajia Zhang, Honggang Hu. Towards Strengthening Deep Learning-based Side Channel Attacks with Mixup. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2103.05833) [ePrint](https://eprint.iacr.org/2021/312)\]
 - Wenlong Cao, Fan Huang, **Mengce Zheng**, Honggang Hu. Attacking FPGA-based Dual Complementary AES Implementation Using HD and SD Models. In: *CIS* 2020.
 - Minhui Jin, **Mengce Zheng**, Honggang Hu, Nenghai Yu. An Enhanced Convolutional Neural Network in Side-Channel Attacks and Visualization. In: *WCSE* 2020. \| \[[arXiv](https://arxiv.org/abs/2009.08898)\]
 - **Mengce Zheng**, Honggang Hu. Implicit Related-Key Factorization Problem on the RSA Cryptosystem. In: *CANS* 2019.
@@ -84,6 +83,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 💬 Presentations
 
+- Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem, The 29th Australasian Conference on Information Security and Privacy, Sydney, Australia, 2024. \| \[[Slides](/assets/files/ACISP24.pdf)\]
 - Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/assets/files/NJUPT20.pdf)\]
 - Implicit Related-Key Factorization Problem on the RSA Cryptosystem, The 18th International Conference on Cryptology and Network Security, Fuzhou, China, 2019. \| \[[Slides](/assets/files/CANS19.pdf)\]
 - Implicit-Key Attack on the RSA Cryptosystem, The 2nd International Conference on Science of Cyber Security, Nanjing, China, 2019. \| \[[Slides](/assets/files/SciSec19.pdf)\]
