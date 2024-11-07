@@ -31,11 +31,12 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 🔥 News
 
+- *2024.11*: I have come to France to visit the University of Caen and work with Prof. Nitaj.🏰 
+- *2024.09*: One paper entitled "Lattice-Based Cryptanalysis of RSA-Type Cryptosystems: A Bibliometric Analysis" was accepted by *Cybersecurity*.
 - *2024.08*: Our team won the third prize in the finals of the 9th (2024) National Crypto-Math Challenge.😄
 - *2024.05*: One paper entitled "Revisiting RSA-Polynomial Problem and Semiprime Factorization" was accepted by *Theoretical Computer Science*.
 - *2024.04*: One paper entitled "Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem" was accepted by *ACISP 2024*.
 - *2024.01*: One paper entitled "Revisiting Small Private Key Attacks on Common Prime RSA" was accepted by *IEEE Access*.
-- *2023.10*: One paper entitled "Partial Key Exposure Attack on Common Prime RSA" was accepted by *Inscrypt 2023*.
 
 ## 🧰 Projects
 
@@ -67,7 +68,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
-- **Mengce Zheng**. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024.
+- **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024.
 - **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061)\]
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. In: *CIS* 2021.
 - Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
