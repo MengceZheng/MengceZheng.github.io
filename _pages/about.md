@@ -108,10 +108,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 👨‍🏫 Teaching
 
-- *2024 Spring*:  Cryptography Theory and Technology & Advanced Cryptography
-- *2023 Fall*:    Blockchain Theory and Technology & Integrated Information Security Design and Practice  
-- *2023 Spring*:  Advanced Cryptography & Blockchain Development and Application
-- *2022 Fall*:    Data Structures and Algorithms
-- *2022 Spring*:  Cybersecurity Theory and Technology
-- *2021 Fall*:    Data Structures and Algorithms
-- *2021 Spring*:  Cybersecurity Theory and Technology
+- *Cryptography Theory and Technology*:  2024 Spring
+- *Advanced Cryptography*:  2023 Spring, 2024 Spring, 2024 Fall
+- *Blockchain Theory and Technology*:  2023 Spring, 2023 Fall
+- *Cybersecurity Theory and Technology*:  2021 Spring, 2022 Spring
+- *Data Structures and Algorithms*:  2021 Fall, 2022 Fall
