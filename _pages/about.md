@@ -44,7 +44,7 @@ If you are interested in similar research and seeking any form of academic coope
 - Lattice-Based Cryptanalysis
 
   - English Notes:
-  - 中文摘记:
+  - 中文摘记: [2024-11-25](/docs/20241125.pdf) \|
 
 - Post-Quantum Cryptography
 
