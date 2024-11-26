@@ -31,7 +31,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 🔥 News
 
-- *2024.11*: I have come to France to visit the University of Caen and work with Prof. Nitaj.🏰 
+- *2024.11*: One paper entitled "Generalized Cryptanalysis of Cubic Pell RSA" was accepted by *Inscrypt 2024*.
+- *2024.11*: I have come to France to visit the University of Caen and work with Prof. Nitaj.🏰
 - *2024.09*: One paper entitled "Lattice-Based Cryptanalysis of RSA-Type Cryptosystems: A Bibliometric Analysis" was accepted by *Cybersecurity*.
 - *2024.08*: Our team won the third prize in the finals of the 9th (2024) National Crypto-Math Challenge.😄
 - *2024.05*: One paper entitled "Revisiting RSA-Polynomial Problem and Semiprime Factorization" was accepted by *Theoretical Computer Science*.
@@ -100,8 +101,9 @@ If you are interested in similar research and seeking any form of academic coope
 - *2016*: CSC Scholarship for Joint Doctoral Students
 - *2015*: National Scholarship for Graduate Students
 
-## 📖 Educations
+## 📖 Educations and Visitings
 
+- *2024 -- 2025*: Visiting Sholar, University of Caen, Caen, France
 - *2013 -- 2018*: PH.D. & M.S., University of Science and Technology of China, Hefei, China
 - *2016 -- 2017*: Visiting PH.D., The University of Tokyo, Tokyo, Japan
 - *2009 -- 2013*: B.E., University of Science and Technology of China, Hefei, China
