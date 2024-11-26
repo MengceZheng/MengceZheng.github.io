@@ -26,7 +26,7 @@ I conducted academic visits at [The University of Tokyo (UTokyo)](https://www.u-
 My main research interests include cryptographic algorithms and their applications, including public-key cryptanalysis, side-channel analysis, quantum cryptographic protocols, etc.
 I have published more than 30 papers <a href='https://scholar.google.com/citations?user=WgoBZnkAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FMengceZheng%2FMengceZheng.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>, in related journals and conferences such as SCIENCE CHINA Information Sciences, Theoretical Computer Science, Journal of Information Security and Applications, CHES, ACISP, etc.
 
-Further information on my experience and work can be found in my attached [**CV**](/assets/files/CV.pdf).
+Further information on my experience and work can be found in my attached [**CV**](/docs/CV.pdf).
 If you are interested in similar research and seeking any form of academic cooperation, please feel free to email me at [mengce.zheng@gmail.com](mailto:mengce.zheng@gmail.com).
 
 ## 🔥 News
@@ -43,6 +43,9 @@ If you are interested in similar research and seeking any form of academic coope
 
 - Lattice-Based Cryptanalysis
 
+  - English Notes:
+  - 中文摘记:
+
 - Post-Quantum Cryptography
 
 - Quantum Network Protocols
@@ -53,19 +56,19 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
-- **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/assets/files/Zheng24b.pdf)\]
-- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/assets/files/Zheng24a.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
-- **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461) [PDF](/assets/files/Zheng23.pdf)\]
-- **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/assets/files/ZCW23.pdf)\]
-- **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/assets/files/Zheng22.pdf)\]
-- **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/assets/files/ZKY21.pdf)\]
-- **Mengce Zheng**, Kaiping Xue, Shangbin Li, Nenghai Yu. A practical quantum designated verifier signature scheme for E-voting applications. *Quantum Information Processing* 20(7): 1--22 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03162-5) [PDF](/assets/files/ZXLY21.pdf)\]
-- Zhigang Chen, Gang Hu, **Mengce Zheng**, Xinxia Song, Liqun Chen. Bibliometrics of Machine Learning Research Using Homomorphic Encryption. *Mathematics* 9(21): 2792 (2021). \| \[[HTML](https://www.mdpi.com/2227-7390/9/21/2792) [PDF](/assets/files/CHZ+21.pdf)\]
-- Qidong Jia, Kaiping Xue, Zhonghui Li, **Mengce Zheng**, David S. L. Wei, Nenghai Yu. An improved QKD protocol without public announcement basis using periodically derived basis. *Quantum Information Processing* 20(2): 69 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03000-8) [PDF](/assets/files/JXL+21.pdf)\]
-- **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Lattice-based cryptanalysis of RSA with implicitly related keys. *IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences* 103(8): 959--968 (2020). \| \[[HTML](https://search.ieice.org/bin/summary.php?id=e103-a_8_959) [PDF](/assets/files/ZKH20.pdf)\]
-- Jiajia Zhang, **Mengce Zheng**, Jiehui Nan, Honggang Hu, Nenghai Yu. A Novel Evaluation Metric for Deep Learning-Based Side Channel Analysis and Its Extended Application to Imbalanced Data. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2020(3): 73--96 (2020). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/8583) [PDF](/assets/files/ZZN+20.pdf)\]
-- **Mengce Zheng**, Honggang Hu, Zilong Wang. Generalized cryptanalysis of RSA with small public exponent. *SCIENCE CHINA Information Sciences* 59(3): 32108:1--32108:10 (2016). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5325-7) [PDF](/assets/files/ZHW16.pdf)\]
-- **Mengce Zheng**, Honggang Hu. Cryptanalysis of Prime Power RSA with two private exponents. *SCIENCE CHINA Information Sciences* 58(11): 1--8 (2015). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5409-4) [PDF](/assets/files/ZH15.pdf)\]
+- **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/docs/Zheng24b.pdf)\]
+- **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/docs/Zheng24a.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
+- **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461) [PDF](/docs/Zheng23.pdf)\]
+- **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/docs/ZCW23.pdf)\]
+- **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/docs/Zheng22.pdf)\]
+- **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/docs/ZKY21.pdf)\]
+- **Mengce Zheng**, Kaiping Xue, Shangbin Li, Nenghai Yu. A practical quantum designated verifier signature scheme for E-voting applications. *Quantum Information Processing* 20(7): 1--22 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03162-5) [PDF](/docs/ZXLY21.pdf)\]
+- Zhigang Chen, Gang Hu, **Mengce Zheng**, Xinxia Song, Liqun Chen. Bibliometrics of Machine Learning Research Using Homomorphic Encryption. *Mathematics* 9(21): 2792 (2021). \| \[[HTML](https://www.mdpi.com/2227-7390/9/21/2792) [PDF](/docs/CHZ+21.pdf)\]
+- Qidong Jia, Kaiping Xue, Zhonghui Li, **Mengce Zheng**, David S. L. Wei, Nenghai Yu. An improved QKD protocol without public announcement basis using periodically derived basis. *Quantum Information Processing* 20(2): 69 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03000-8) [PDF](/docs/JXL+21.pdf)\]
+- **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Lattice-based cryptanalysis of RSA with implicitly related keys. *IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences* 103(8): 959--968 (2020). \| \[[HTML](https://search.ieice.org/bin/summary.php?id=e103-a_8_959) [PDF](/docs/ZKH20.pdf)\]
+- Jiajia Zhang, **Mengce Zheng**, Jiehui Nan, Honggang Hu, Nenghai Yu. A Novel Evaluation Metric for Deep Learning-Based Side Channel Analysis and Its Extended Application to Imbalanced Data. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2020(3): 73--96 (2020). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/8583) [PDF](/docs/ZZN+20.pdf)\]
+- **Mengce Zheng**, Honggang Hu, Zilong Wang. Generalized cryptanalysis of RSA with small public exponent. *SCIENCE CHINA Information Sciences* 59(3): 32108:1--32108:10 (2016). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5325-7) [PDF](/docs/ZHW16.pdf)\]
+- **Mengce Zheng**, Honggang Hu. Cryptanalysis of Prime Power RSA with two private exponents. *SCIENCE CHINA Information Sciences* 58(11): 1--8 (2015). \| \[[HTML](https://link.springer.com/article/10.1007/s11432-015-5409-4) [PDF](/docs/ZH15.pdf)\]
 
 ### 📖 Conference Proceedings
 
@@ -85,12 +88,12 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 💬 Presentations
 
-- Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem, The 29th Australasian Conference on Information Security and Privacy, Sydney, Australia, 2024. \| \[[Slides](/assets/files/ACISP24.pdf)\]
-- Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/assets/files/NJUPT20.pdf)\]
-- Implicit Related-Key Factorization Problem on the RSA Cryptosystem, The 18th International Conference on Cryptology and Network Security, Fuzhou, China, 2019. \| \[[Slides](/assets/files/CANS19.pdf)\]
-- Implicit-Key Attack on the RSA Cryptosystem, The 2nd International Conference on Science of Cyber Security, Nanjing, China, 2019. \| \[[Slides](/assets/files/SciSec19.pdf)\]
-- Cryptanalysis of RSA Variants with Modified Euler Quotient, The 10th International Conference on the Theory and Applications of Security and Cryptography, Marrakesh, Morocco, 2018. \| \[[Slides](/assets/files/AFRICACRYPT18.pdf)\]
-- Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference, The 22nd Australasian Conference on Information Security and Privacy, Auckland, New Zealand, 2017. \| \[[Slides](/assets/files/ACISP17.pdf)\]
+- Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem, The 29th Australasian Conference on Information Security and Privacy, Sydney, Australia, 2024. \| \[[Slides](/docs/ACISP24.pdf)\]
+- Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/docs/NJUPT20.pdf)\]
+- Implicit Related-Key Factorization Problem on the RSA Cryptosystem, The 18th International Conference on Cryptology and Network Security, Fuzhou, China, 2019. \| \[[Slides](/docs/CANS19.pdf)\]
+- Implicit-Key Attack on the RSA Cryptosystem, The 2nd International Conference on Science of Cyber Security, Nanjing, China, 2019. \| \[[Slides](/docs/SciSec19.pdf)\]
+- Cryptanalysis of RSA Variants with Modified Euler Quotient, The 10th International Conference on the Theory and Applications of Security and Cryptography, Marrakesh, Morocco, 2018. \| \[[Slides](/docs/AFRICACRYPT18.pdf)\]
+- Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference, The 22nd Australasian Conference on Information Security and Privacy, Auckland, New Zealand, 2017. \| \[[Slides](/docs/ACISP17.pdf)\]
 
 ## 🏆 Honors and Awards
 
