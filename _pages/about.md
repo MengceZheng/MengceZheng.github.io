@@ -56,12 +56,13 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
+- **Mengce Zheng**, Hao Kang. Lattice-based cryptanalysis of RSA-type cryptosystems: a bibliometric analysis. *Cybersecurity* 7: 74 (2024). \| \[[HTML](https://link.springer.com/article/10.1186/s42400-024-00289-7) [PDF](/docs/ZK24.pdf)\]
 - **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/docs/Zheng24b.pdf)\]
 - **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/docs/Zheng24a.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
 - **Mengce Zheng**. Generalized implicit-key attacks on RSA. *Journal of Information Security and Applications* 77: 103562 (2023). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S2214212623001461) [PDF](/docs/Zheng23.pdf)\]
 - **Mengce Zheng**, Zhigang Chen, Yaohui Wu. Solving Generalized Bivariate Integer Equations and Its Application to Factoring With Known Bits. *IEEE Access* 11: 34674--34684 (2023). \| \[[HTML](https://ieeexplore.ieee.org/document/10092793) [PDF](/docs/ZCW23.pdf)\]
 - **Mengce Zheng**. Revisiting the Polynomial-Time Equivalence of Computing the CRT-RSA Secret Key and Factoring. *Mathematics* 10(13): 2238 (2022). \| \[[HTML](https://www.mdpi.com/2227-7390/10/13/2238) [PDF](/docs/Zheng22.pdf)\]
-- **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/docs/ZKY21.pdf)\]
+- **Mengce Zheng**, Noboru Kunihiro, Yuanzhi Yao. Cryptanalysis of the RSA variant based on cubic Pell equation. *Theoretical Computer Science* 889: 135--144 (2021). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S030439752100445X) [PDF](/docs/ZKY21.pdf) [Code](https://github.com/MengceZheng/cPRSA)\]
 - **Mengce Zheng**, Kaiping Xue, Shangbin Li, Nenghai Yu. A practical quantum designated verifier signature scheme for E-voting applications. *Quantum Information Processing* 20(7): 1--22 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03162-5) [PDF](/docs/ZXLY21.pdf)\]
 - Zhigang Chen, Gang Hu, **Mengce Zheng**, Xinxia Song, Liqun Chen. Bibliometrics of Machine Learning Research Using Homomorphic Encryption. *Mathematics* 9(21): 2792 (2021). \| \[[HTML](https://www.mdpi.com/2227-7390/9/21/2792) [PDF](/docs/CHZ+21.pdf)\]
 - Qidong Jia, Kaiping Xue, Zhonghui Li, **Mengce Zheng**, David S. L. Wei, Nenghai Yu. An improved QKD protocol without public announcement basis using periodically derived basis. *Quantum Information Processing* 20(2): 69 (2021). \| \[[HTML](https://link.springer.com/article/10.1007/s11128-021-03000-8) [PDF](/docs/JXL+21.pdf)\]
@@ -72,8 +73,9 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
-- **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024.
-- **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061)\]
+- Hao Kang, **Mengce Zheng**. Generalized Cryptanalysis of Cubic Pell RSA. In: *Inscrypt* 2024. \| \[[Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
+- **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024. \| \[[Code](https://github.com/MengceZheng/MLHRSP)\]
+- **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061) [Code](https://github.com/MengceZheng/PKEA_CPRSA)\]
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. In: *CIS* 2021.
 - Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
 - Zhimin Luo, **Mengce Zheng**, Ping Wang, Minhui Jin, Jiajia Zhang, Honggang Hu. Towards Strengthening Deep Learning-based Side Channel Attacks with Mixup. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2103.05833) [ePrint](https://eprint.iacr.org/2021/312)\]
@@ -88,6 +90,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 💬 Presentations
 
+- Generalized Cryptanalysis of Cubic Pell RSA, The 20th International Conference on Information Security and Cryptology, Kunming, China, 2024. \| \[[Slides](/docs/INSCRYPT24.pdf)\]
 - Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem, The 29th Australasian Conference on Information Security and Privacy, Sydney, Australia, 2024. \| \[[Slides](/docs/ACISP24.pdf)\]
 - Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/docs/NJUPT20.pdf)\]
 - Implicit Related-Key Factorization Problem on the RSA Cryptosystem, The 18th International Conference on Cryptology and Network Security, Fuzhou, China, 2019. \| \[[Slides](/docs/CANS19.pdf)\]
