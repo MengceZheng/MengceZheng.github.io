@@ -73,7 +73,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
-- Hao Kang, **Mengce Zheng**. Generalized Cryptanalysis of Cubic Pell RSA. In: *Inscrypt* 2024. \| \[[Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
+- Hao Kang, **Mengce Zheng**. Generalized Cryptanalysis of Cubic Pell RSA. In: *Inscrypt* 2024. \| \[[Code](https://github.com/MengceZheng/GCPRSA)\]
 - **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024. \| \[[Code](https://github.com/MengceZheng/MLHRSP)\]
 - **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061) [Code](https://github.com/MengceZheng/PKEA_CPRSA)\]
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. In: *CIS* 2021.
