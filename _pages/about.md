@@ -73,20 +73,20 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
-- Hao Kang, **Mengce Zheng**. Generalized Cryptanalysis of Cubic Pell RSA. In: *Inscrypt* 2024. \| \[[Code](https://github.com/MengceZheng/GCPRSA)\]
-- **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024. \| \[[Code](https://github.com/MengceZheng/MLHRSP)\]
+- Hao Kang, **Mengce Zheng**. Generalized Cryptanalysis of Cubic Pell RSA. In: *Inscrypt* 2024. \| \[[ePrint](https://eprint.iacr.org/2024/2081) [Code](https://github.com/MengceZheng/GCPRSA)\]
+- **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024. \| \[[ePrint](https://eprint.iacr.org/2024/2080) [Code](https://github.com/MengceZheng/MLHRSP)\]
 - **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061) [Code](https://github.com/MengceZheng/PKEA_CPRSA)\]
 - Shukun An, Jianzhao Liu, Xiaolin Duan, **Mengce Zheng**, Honggang Hu. Strengthening Profiled Side Channel Attacks on AES via Multi-view Information Aggregation. In: *CIS* 2021.
 - Yukun Cheng, **Mengce Zheng**, Fan Huang, Jiajia Zhang, Honggang Hu, Nenghai Yu. A Fast-Detection and Fault-Correction Algorithm against Persistent Fault Attack. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2106.07943)\]
 - Zhimin Luo, **Mengce Zheng**, Ping Wang, Minhui Jin, Jiajia Zhang, Honggang Hu. Towards Strengthening Deep Learning-based Side Channel Attacks with Mixup. In: *TrustCom* 2021. \| \[[arXiv](https://arxiv.org/abs/2103.05833) [ePrint](https://eprint.iacr.org/2021/312)\]
 - Wenlong Cao, Fan Huang, **Mengce Zheng**, Honggang Hu. Attacking FPGA-based Dual Complementary AES Implementation Using HD and SD Models. In: *CIS* 2020.
 - Minhui Jin, **Mengce Zheng**, Honggang Hu, Nenghai Yu. An Enhanced Convolutional Neural Network in Side-Channel Attacks and Visualization. In: *WCSE* 2020. \| \[[arXiv](https://arxiv.org/abs/2009.08898)\]
-- **Mengce Zheng**, Honggang Hu. Implicit Related-Key Factorization Problem on the RSA Cryptosystem. In: *CANS* 2019.
-- **Mengce Zheng**, Honggang Hu. Implicit-Key Attack on the RSA Cryptosystem. In: *SciSec* 2019.
+- **Mengce Zheng**, Honggang Hu. Implicit Related-Key Factorization Problem on the RSA Cryptosystem. In: *CANS* 2019. \| \[[PDF](/docs/ZH19b.pdf)\]
+- **Mengce Zheng**, Honggang Hu. Implicit-Key Attack on the RSA Cryptosystem. In: *SciSec* 2019. \| \[[PDF](/docs/ZH19a.pdf)\]
 - Jiehui Nan, **Mengce Zheng**, Honggang Hu. Post-Quantum Pseudorandom Functions from Mersenne Primes. In: *FCS* 2019.
 - Zilong Wang, Honggang Hu, **Mengce Zheng**, Jiehui Nan. Symmetric Lattice-Based PAKE from Approximate Smooth Projective Hash Function and Reconciliation Mechanism. In: *FCS* 2019.
-- **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Cryptanalysis of RSA Variants with Modified Euler Quotient. In: *AFRICACRYPT* 2018.
-- **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference. In: *ACISP* 2017. \| \[[ePrint](https://eprint.iacr.org/2015/1137)\]
+- **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Cryptanalysis of RSA Variants with Modified Euler Quotient. In: *AFRICACRYPT* 2018. \| \[[PDF](/docs/ZKH18.pdf) [Code](https://github.com/MengceZheng/MEQRSA)\]
+- **Mengce Zheng**, Noboru Kunihiro, Honggang Hu. Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference. In: *ACISP* 2017. \| \[[ePrint](https://eprint.iacr.org/2015/1137) [PDF](/docs/ZKH17.pdf) [Code](https://github.com/MengceZheng/MPRSA)\]
 
 ## 💬 Presentations
 
