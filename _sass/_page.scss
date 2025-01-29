@@ -410,3 +410,23 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.blog-roll {
+  /* 允许自然换行 */
+  white-space: normal;
+  margin: 1rem 0;
+}
+
+.blog-link {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #2c6fbb;
+  text-decoration: none;
+}
+
+.blog-link:not(:last-child)::after {
+  content: "|";
+  margin-left: 0.5rem;
+  color: #6b7280;
+  font-weight: 300;
+}
