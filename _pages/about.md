@@ -43,14 +43,19 @@ If you are interested in similar research and seeking any form of academic coope
 
 - Lattice-Based Cryptanalysis
 
-  - English Notes:
-  - 中文摘记: [2024-11-25](/docs/20241125.pdf) \| [2024-12-05](/docs/20241205.pdf) \| [2024-12-10](/docs/20241210.pdf) \|
-
 - Post-Quantum Cryptography
 
 - Quantum Network Protocols
 
 - Side-Channel Analysis
+
+## 📘 Notes
+
+<div class="blog-roll">
+  {% for post in site.posts %}
+    <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
+  {% endfor %}
+</div>
 
 ## 📝 Publications
 
