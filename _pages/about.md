@@ -49,14 +49,6 @@ If you are interested in similar research and seeking any form of academic coope
 
 - Side-Channel Analysis
 
-## 📘 Notes
-
-<div class="blog-roll">
-  {% for post in site.posts %}
-    <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
-  {% endfor %}
-</div>
-
 ## 📝 Publications
 
 ### 📃 Journal Articles
@@ -103,6 +95,14 @@ If you are interested in similar research and seeking any form of academic coope
 - Cryptanalysis of RSA Variants with Modified Euler Quotient, The 10th International Conference on the Theory and Applications of Security and Cryptography, Marrakesh, Morocco, 2018. \| \[[Slides](/docs/AFRICACRYPT18.pdf)\]
 - Improved Factoring Attacks on Multi-prime RSA with Small Prime Difference, The 22nd Australasian Conference on Information Security and Privacy, Auckland, New Zealand, 2017. \| \[[Slides](/docs/ACISP17.pdf)\]
 
+## 📘 Notes
+
+<div class="blog-roll">
+  {% for post in site.posts %}
+    <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
+  {% endfor %}
+</div>
+
 ## 🏆 Honors and Awards
 
 - *2023*: CSC Local Cooperation Program for Visiting Scholar
@@ -112,7 +112,7 @@ If you are interested in similar research and seeking any form of academic coope
 - *2016*: CSC Scholarship for Joint Doctoral Students
 - *2015*: National Scholarship for Graduate Students
 
-## 📖 Educations and Visitings
+## 🎓 Educations and Visitings
 
 - *2024 -- 2025*: Visiting Sholar, University of Caen, Caen, France
 - *2013 -- 2018*: PH.D. & M.S., University of Science and Technology of China, Hefei, China
