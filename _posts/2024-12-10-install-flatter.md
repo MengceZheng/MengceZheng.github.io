@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "格基约化算法 flatter 安装及测试"
+title: "flatter 算法安装及测试"
 date: 2024-12-10
 ---
 
