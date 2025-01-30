@@ -1,75 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Core Metadata -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include head.html %} <!-- 复用 head 部分（如果有） -->
+
   <title>{{ page.title }} - {{ site.title }}</title>
-  
+
   <!-- Math Support -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 
-  <!-- 加载自定义代码高亮 -->
+  <!-- Syntax Highlighting -->
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
-    
-  <!-- 加载 Fira Code 字体 -->
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
-  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
   <!-- Blog Styles -->
   <style>
-    :root {
-      --primary-color: #2c3e50;
-      --secondary-color: #6b7280;
-    }
-
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      line-height: 1.7;
-      max-width: 760px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
-      color: var(--primary-color);
     }
-
-    .post-title {
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
-      font-weight: 600;
+    pre code {
+      font-size: 0.75rem; /* 调整字体大小 */
     }
-
-    .post-meta {
-      color: var(--secondary-color);
-      font-size: 1.0em;
-      margin-bottom: 2rem;
-      display: flex;
-      gap: 1.2rem;
-    }
-
-    .post-content {
-      font-size: 1.05rem;
-      
-      pre {
-        background: #f8f9fa;
-        padding: 1rem;
-        border-radius: 4px;
-        overflow-x: auto;
-        border: 1px solid #e5e7eb;
-      }
-
-      code {
-        font-family: 'Fira Code', monospace;
-        font-size: 1.0em;
-      }
-
-      h2 {
-        margin-top: 2.5rem;
-        border-bottom: 1px solid #e5e7eb;
-        padding-bottom: 0.5rem;
-      }
-    }
-
     .post-footer {
-      margin-top: 3rem;
+      margin-top: 2rem;
       padding-top: 2rem;
       border-top: 1px solid #e5e7eb;
       text-align: center;
@@ -77,46 +33,47 @@
   </style>
 </head>
 
-<body>
-  <article>
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%B %d, %Y" }}
-      </time>
-      <span>• By {{ site.author.name }}</span>
-    </div>
+<body class="post-page"> <!-- 添加页面级标识 -->
+  <main class="post-container"> <!-- 新增容器 -->
+    <article>
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%B %d, %Y" }}
+        </time>
+        <span>• By {{ site.author.name }}</span>
+      </div>
 
-    <div class="post-content">
-      {{ content }}
-    </div>
+      <div class="post-content">
+        {{ content }}
+      </div>
 
-    <div class="post-footer">
-      <a href="{{ '/' | relative_url }}">Back to Homepage</a>
-    </div>
-  </article>
+      <div class="post-footer">
+        <a href="{{ '/' | relative_url }}">Back to Homepage</a>
+      </div>
+    </article>
 
-  <!-- Math Rendering -->
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      renderMathInElement(document.body, {
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '\\[', right: '\\]', display: true},  // 新增行间公式支持
-          {left: '$', right: '$', display: false},
-          {left: '\\(', right: '\\)', display: false} // 行内公式
-        ],
-        throwOnError: false
-      });
-    });
-    </script>
-<!-- 在 </body> 前添加 -->
+    <!-- Math Rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
     <script>
-    document.querySelectorAll('pre code').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
+      document.addEventListener('DOMContentLoaded', function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '\\[', right: '\\]', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false}
+          ],
+          throwOnError: false
+        });
+
+        // Syntax highlighting
+        document.querySelectorAll('pre code').forEach((block) => {
+          hljs.highlightElement(block);
+        });
+      });
     </script>
+  </main>
 </body>
 </html>
