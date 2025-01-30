@@ -1,29 +1,73 @@
-name: Get Citation Data
+name: Google Scholar Sync
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  schedule:
+    - cron: '30 8 * * *'  # UTC 时间 8:30 (北京时间 16:30)
+  workflow_dispatch:
 
 jobs:
-  build:
+  scholar-crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-    - uses: actions/checkout@v3
-    - name: Install Reqs
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+        cache: 'pip'
+
+    - name: Install dependencies
       run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+        pip install --upgrade pip
+        pip install -r google_scholar_crawler/requirements.txt
+
+    - name: Run crawler
       run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
+        cd google_scholar_crawler
+        python main.py
+      env:
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        MAX_RETRIES: 3
+
+    - name: Commit results
+      run: |
+        git config --global user.name "GitHub Scholar Bot"
+        git config --global user.email "actions@users.noreply.github.com"
+        git add google_scholar_crawler/results/*
+        git commit -m "docs(scholar): Auto-update citation data [skip ci]" || echo "No changes"
+        git push origin HEAD:${{ github.ref }} --force
+
+    # ========== 新增 Issue 通知 ==========
+    - name: Create Issue on Failure
+      if: failure()
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const { data: issues } = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: ['crawler-error']
+          });
+          
+          const existingIssue = issues.find(issue => 
+            issue.title.includes('Scholar Crawler Failed')
+          );
+          
+          if (!existingIssue) {
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Scholar Crawler Failed - ${new Date().toISOString()}`,
+              body: `**Workflow Run Failed**\n\n` +
+                    `- Run ID: ${context.runId}\n` +
+                    `- Workflow: ${context.workflow}\n` +
+                    `- Details: [View Log](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
+              labels: ['crawler-error']
+            });
+          }

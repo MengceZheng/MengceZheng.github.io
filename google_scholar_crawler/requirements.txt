@@ -1,2 +1,4 @@
 jsonpickle==1.4.2
 scholarly==1.5.1
+tenacity==8.2.3
+python-dotenv==1.0.0
