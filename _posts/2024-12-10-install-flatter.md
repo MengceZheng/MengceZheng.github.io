@@ -16,9 +16,7 @@ date: 2024-12-10
 
 ### 安装 flatter
 
-首先需要下载 flatter 的源代码，可以从 [flatter](https://github.com/keeganryan/flatter) 仓库以 ZIP 格式直接下载，或是通过 `git` 的方式获取。
-本文采用第二种方式，执行命令 `git clone https://github.com/keeganryan/flatter.git` 以获取 flatter 的官方仓库，
-随后在 flatter 文件夹中执行以下命令正式安装：
+首先需要下载 flatter 的源代码，可以从 [flatter](https://github.com/keeganryan/flatter) 仓库以 ZIP 格式直接下载，或是通过 `git` 的方式获取。本文采用第二种方式，执行命令 `git clone https://github.com/keeganryan/flatter.git` 以获取 flatter 的官方仓库，随后在 flatter 文件夹中执行以下命令正式安装：
 
 ```bash
 ~/flatter$ sudo apt install libgmp-dev libmpfr-dev fplll-tools libfplll-dev libeigen3-dev
