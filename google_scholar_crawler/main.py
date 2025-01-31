@@ -22,14 +22,8 @@ print(json.dumps(author, indent=2, ensure_ascii=False))
 # 创建结果目录
 os.makedirs('results', exist_ok=True)
 
-# 获取当前日期
-current_date = datetime.now().strftime("%Y-%m-%d")
-
-# 生成带日期的文件名
-filename = f"results/gs_data_{current_date}.json"
-
 # 保存完整数据
-with open(filename, "w", encoding="utf-8") as outfile:
+with open('results/gs_data.json', "w", encoding="utf-8") as outfile:
     json.dump(author, outfile, ensure_ascii=False)
 
 # 生成 shields.io 兼容的 JSON 数据（用于展示引用次数）
