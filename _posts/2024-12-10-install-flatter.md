@@ -16,24 +16,28 @@ date: 2024-12-10
 
 ### 安装 flatter
 
-首先需要下载 flatter 的源代码，可以从 [flatter](https://github.com/keeganryan/flatter) 仓库以 ZIP 格式直接下载，或是通过 `git` 的方式获取。
-本文采用第二种方式，执行命令 `git clone https://github.com/keeganryan/flatter.git` 以获取 flatter 的官方仓库，
-随后在 flatter 文件夹中执行以下命令正式安装：
+首先需要下载 flatter 的源代码，可以从 [flatter](https://github.com/keeganryan/flatter) 仓库以 ZIP 格式直接下载，或是通过 `git` 的方式获取。本文采用第二种方式，执行命令
 
 ```bash
-~/flatter$ sudo apt install libgmp-dev libmpfr-dev fplll-tools libfplll-dev libeigen3-dev
-~/flatter$ mkdir build && cd ./build
-~/flatter$ cmake ..
-~/flatter$ make
-~/flatter$ sudo make install
-~/flatter$ sudo ldconfig
-~/flatter$ flatter -h
+git clone https://github.com/keeganryan/flatter.git
+```
+
+以获取 flatter 的官方仓库，随后在 flatter 文件夹中执行以下命令正式安装：
+
+```bash
+sudo apt install libgmp-dev libmpfr-dev fplll-tools libfplll-dev libeigen3-dev
+mkdir build && cd ./build
+cmake ..
+make
+sudo make install
+sudo ldconfig
+flatter -h
 ```
 
 最后一句命令将展示 flatter 的具体使用方法：
 
 ```bash
-~/flatter$ flatter -h
+flatter -h
 Usage: flatter [-h] [-v] [-alpha ALPHA | -rhf RHF | -delta DELTA] [-logcond LOGCOND] [INFILE [OUTFILE]]
         INFILE -    input lattice (FPLLL format). Defaults to STDIN
         OUTFILE -   output lattice (FPLLL format). Defaults to STDOUT
@@ -53,7 +57,7 @@ Usage: flatter [-h] [-v] [-alpha ALPHA | -rhf RHF | -delta DELTA] [-logcond LOGC
 flatter 按照 [fplll](https://github.com/fplll/fplll) 格式进行格基约化，因此先以 `latticegen` 命令生成特定格基，再以 `flatter` 命令执行格基约化：
 
 ```bash
-~/flatter$ latticegen q 4 2 10 b | flatter
+latticegen q 4 2 10 b | flatter
 [[4 -1 1 0]
 [2 10 8 2]
 [1 4 -5 -13]
@@ -64,7 +68,7 @@ flatter 按照 [fplll](https://github.com/fplll/fplll) 格式进行格基约化�
 或是
 
 ```bash
-~/flatter$ latticegen u 5 10 | flatter
+latticegen u 5 10 | flatter
 [[-45 137 -61 83 -33]
 [-163 -41 133 71 101]
 [170 148 185 114 45]
@@ -76,7 +80,7 @@ flatter 按照 [fplll](https://github.com/fplll/fplll) 格式进行格基约化�
 当然，也可以将输入格基和输出格基的相关信息打印出来：
 
 ```bash
-~/flatter$ latticegen r 8 8 | flatter -v -p
+latticegen r 8 8 | flatter -v -p
 Input lattice of rank 8 and dimension 9
 Largest entry is 8 bits in length.
 Skipped determining input profile, as input is not lower-triangular.
