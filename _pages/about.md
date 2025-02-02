@@ -37,17 +37,16 @@ If you are interested in similar research and seeking any form of academic coope
 - *2024.08*: Our team won the third prize in the finals of the 9th (2024) National Crypto-Math Challenge.😄
 - *2024.05*: One paper entitled "Revisiting RSA-Polynomial Problem and Semiprime Factorization" was accepted by *Theoretical Computer Science*.
 - *2024.04*: One paper entitled "Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem" was accepted by *ACISP 2024*.
-- *2024.01*: One paper entitled "Revisiting Small Private Key Attacks on Common Prime RSA" was accepted by *IEEE Access*.
 
 ## 🧰 Projects
 
-- Lattice-Based Cryptanalysis
+- Lattice-Based Cryptanalysis: It employs lattice structures to analyze cryptographic systems. The celebrated Coppersmith's method utilizes lattice reduction to find small roots of polynomial equations modulo an integer. This technique can compromise RSA cryptosystem, especially with short exponents or partial key exposure, by efficiently recovering messages or factorizing the RSA modulus. This highlights the need for careful parameter selection in cryptographic protocols to prevent such vulnerabilities.
 
-- Post-Quantum Cryptography
+- Post-Quantum Cryptography: It develops cryptographic methods secure against quantum computer attacks. Lattice-based cryptography, a key area within this field, relies on mathematical structures called lattices. Its security is based on the difficulty of solving certain lattice problems, making it resistant to both classical and quantum attacks. This approach is efficient, scalable, and forms the basis for various cryptographic protocols, including key exchanges and digital signatures.
 
-- Quantum Network Protocols
+- Quantum Network Protocols: It uses quantum mechanics to create secure communication channels. A key component is quantum key distribution (QKD), which allows two parties to generate a shared secret key for encrypting messages. QKD detects eavesdropping attempts due to quantum properties, offering security beyond classical methods. This is crucial in post-quantum cryptography, as it also protects information against future quantum computer threats.
 
-- Side-Channel Analysis
+- Side-Channel Analysis: It extracts sensitive information from cryptographic systems by monitoring unintended emissions like power consumption or timing variations. Machine learning (ML) and deep learning (DL) have recently enhanced such attacks by automatically identifying complex patterns in side-channel data, enabling more accurate and efficient recovery of secret keys. This advancement underscores the need for robust countermeasures in the cryptographic implementations.
 
 ## 📝 Publications
 
