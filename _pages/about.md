@@ -96,10 +96,35 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 📘 Notes
 
-{% for post in site.posts %}
+{% assign current_year = site.time | date: "%Y" %}
+{% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
+  {% if year.name == current_year %}
+
+🕛 {{ year.name }}
+
+{% for post in year.items %}
 
 - [{{ post.title }}]({{ post.url }})
 
+{% endfor %}
+  {% else %}
+
+<!-- markdownlint-disable MD033 -->
+
+<details markdown="1">
+<summary>{{ year.name }}</summary>
+
+{% for post in year.items %}
+
+- [{{ post.title }}]({{ post.url }})
+
+{% endfor %}
+</details>
+
+<!-- markdownlint-enable MD033 -->
+
+  {% endif %}
 {% endfor %}
 
 ## 🏆 Honors and Awards
