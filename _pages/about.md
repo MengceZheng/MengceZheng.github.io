@@ -53,6 +53,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
+- Fan Huang, Xiaolin Duan, Chengcong Hu, **Mengce Zheng**, Honggang Hu. MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2025(2), 23--68 (2025). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/12041) [PDF](/docs/HDH+25.pdf)\]
 - **Mengce Zheng**, Hao Kang. Lattice-based cryptanalysis of RSA-type cryptosystems: a bibliometric analysis. *Cybersecurity* 7: 74 (2024). \| \[[HTML](https://link.springer.com/article/10.1186/s42400-024-00289-7) [PDF](/docs/ZK24.pdf)\]
 - **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/docs/Zheng24b.pdf) [Code](https://github.com/MengceZheng/RSAPoly)\]
 - **Mengce Zheng**. Revisiting Small Private Key Attacks on Common Prime RSA. *IEEE Access* 12: 5203--5211 (2024). \| \[[HTML](https://ieeexplore.ieee.org/document/10380560) [PDF](/docs/Zheng24a.pdf) [Code](https://github.com/MengceZheng/SPKA_CPRSA)\]
