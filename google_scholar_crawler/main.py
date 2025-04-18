@@ -7,14 +7,11 @@ from datetime import datetime
 GOOGLE_SCHOLAR_ID = os.environ['GOOGLE_SCHOLAR_ID']
 author = scholarly.search_author_id(GOOGLE_SCHOLAR_ID)
 
-# 填充作者的基本信息、引用指数、统计数据和出版物信息
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+# 仅填充 'indices' 部分，包含 'citedby' 信息
+scholarly.fill(author, sections=['indices'])
 
 # 记录更新时间
 author['updated'] = str(datetime.now())
-
-# 将出版物转换为字典格式（使用 author_pub_id 作为键）
-author['publications'] = {pub['author_pub_id']: pub for pub in author['publications']}
 
 # 打印 JSON 结果，方便调试
 print(json.dumps(author, indent=2, ensure_ascii=False))
@@ -22,7 +19,7 @@ print(json.dumps(author, indent=2, ensure_ascii=False))
 # 创建结果目录
 os.makedirs('results', exist_ok=True)
 
-# 保存完整数据
+# 保存数据（仅包含 'indices' 部分）
 with open('results/gs_data.json', "w", encoding="utf-8") as outfile:
     json.dump(author, outfile, ensure_ascii=False)
 
