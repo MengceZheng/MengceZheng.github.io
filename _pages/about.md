@@ -88,6 +88,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 💬 Presentations
 
+- Lattice-Based Solving Strategy Using Coppersmith's Techniques and Its Applications, Crypto Seminar at the University of Caen Normandie, Caen, France, 2025. \| \[[Slides](/docs/UCaen25.pdf)\]
 - Generalized Cryptanalysis of Cubic Pell RSA, The 20th International Conference on Information Security and Cryptology, Kunming, China, 2024. \| \[[Slides](/docs/INSCRYPT24.pdf)\]
 - Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem, The 29th Australasian Conference on Information Security and Privacy, Sydney, Australia, 2024. \| \[[Slides](/docs/ACISP24.pdf)\]
 - Lattice-Based Cryptanalysis of RSA with Implicitly Related Keys (Chinese Version), Academic Seminar at Nanjing University of Posts and Telecommunications, Online, China, 2020. \| \[[Slides](/docs/NJUPT20.pdf)\]
