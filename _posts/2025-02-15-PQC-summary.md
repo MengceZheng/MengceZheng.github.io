@@ -3,13 +3,6 @@ layout: post
 title: "中国抗量子密码发展现状简述"
 date: 2025-02-15
 ---
----
-
-**作者**: [Mengce Zheng](https://mengcezheng.github.io/)
-
-**日期**: 2025年2月15日
-
----
 
 ## 引言
 

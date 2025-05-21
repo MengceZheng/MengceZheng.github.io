@@ -4,14 +4,6 @@ title: "SageMath + VSCode 配置"
 date: 2024-12-15
 ---
 
----
-
-**作者**: [Mengce Zheng](https://mengcezheng.github.io/)
-
-**日期**: 2024年12月15日
-
----
-
 本文为 SageMath 多版本内核配置指南 - WSL2 + VSCode 集成，在 WSL2 Ubuntu 已安装 SageMath 9.5 的情况下，说明如何在 VSCode 中配置使用虚拟环境中的 [SageMath 10.3](https://mengcezheng.github.io/sagemath/) 。
 
 ## 环境准备

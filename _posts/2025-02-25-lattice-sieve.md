@@ -3,13 +3,6 @@ layout: post
 title: "格密码分析之格筛法简要概述"
 date: 2025-02-25
 ---
----
-
-**作者**: [Mengce Zheng](https://mengcezheng.github.io/)
-
-**日期**: 2025年2月25日
-
----
 
 ## 引言
 
