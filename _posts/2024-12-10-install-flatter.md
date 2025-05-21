@@ -4,6 +4,8 @@ title: "flatter 算法安装及测试"
 date: 2024-12-10
 ---
 
+---
+
 本文将在 Windows操作系统 WSL2 的 Ubuntu 22.04 环境中安装 [flatter](https://github.com/keeganryan/flatter) ，具体按照下述步骤进行。
 
 ## 安装 flatter
