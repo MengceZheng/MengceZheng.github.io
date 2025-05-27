@@ -44,8 +44,8 @@ $$
 
 格密码的安全性与以下两个核心困难问题密切相关：
 
-1. **最短向量问题 (Shortest Vector Problem - SVP):** 给定一个格 $L$，找到一个非零格向量 $\mathbf{v} \in L \setminus \{\mathbf{0}\}$，使得其欧几里得范数 $\|\mathbf{v}\|$ 最小。这个最小范数通常记为 $\lambda_1(L)$。SVP被认为是NP难问题（在随机规约下）。
-2. **最近向量问题 (Closest Vector Problem - CVP):** 给定一个格 $L$ 和一个目标向量 $\mathbf{t} \in \mathbb{R}^m$，找到一个格向量 $\mathbf{v} \in L$，使得其与目标向量 $\mathbf{t}$ 之间的距离 $\|\mathbf{v} - \mathbf{t}\|$ 最小。CVP也被认为是NP难问题，且通常认为比SVP更难。
+1. **最短向量问题 (Shortest Vector Problem - SVP):** 给定一个格 $L$，找到一个非零格向量 $\mathbf{v} \in L \setminus \{\mathbf{0}\}$，使得其欧几里得范数 $\Vert\mathbf{v}\Vert$ 最小。这个最小范数通常记为 $\lambda_1(L)$。SVP被认为是NP难问题（在随机规约下）。
+2. **最近向量问题 (Closest Vector Problem - CVP):** 给定一个格 $L$ 和一个目标向量 $\mathbf{t} \in \mathbb{R}^m$，找到一个格向量 $\mathbf{v} \in L$，使得其与目标向量 $\mathbf{t}$ 之间的距离 $\Vert\mathbf{v} - \mathbf{t}\Vert$ 最小。CVP也被认为是NP难问题，且通常认为比SVP更难。
 
 在密码分析中，我们通常需要解决这些问题的近似版本（$\gamma$-SVP 或 $\gamma$-CVP），即找到一个长度不超过最短（或最近）向量长度 $\gamma$ 倍的向量。
 
@@ -86,7 +86,7 @@ NV筛法 (2008) 是AKS筛法的启发式版本，旨在提高实用性。
 * **核心思想与步骤:**
   1. **初始化:** 生成一个包含大量（通常较长）格向量的列表 $S$。设定一个目标长度 $R$。
   2. **筛选:** 选择一个“筛因子” $\gamma < 1$。将 $S$ 中的向量分为两部分：长度小于 $\gamma R$ 的直接保留；长度大于 $\gamma R$ 的作为“中心点” $C$ 或尝试与 $C$ 中的向量相减。
-  3. **缩减:** 对于 $S$ 中每个长度大于 $\gamma R$ 的向量 $\mathbf{v}$，寻找 $C$ 中是否存在一个中心点 $\mathbf{c}$ 使得 $\|\mathbf{v} - \mathbf{c}\| \le \gamma R$。如果存在，则将 $\mathbf{v} - \mathbf{c}$ 加入新列表；否则，将 $\mathbf{v}$ 加入 $C$。
+  3. **缩减:** 对于 $S$ 中每个长度大于 $\gamma R$ 的向量 $\mathbf{v}$，寻找 $C$ 中是否存在一个中心点 $\mathbf{c}$ 使得 $\Vert\mathbf{v} - \mathbf{c}\Vert \le \gamma R$。如果存在，则将 $\mathbf{v} - \mathbf{c}$ 加入新列表；否则，将 $\mathbf{v}$ 加入 $C$。
   4. **迭代:** 用新生成的列表替换 $S$，并减小 $R$ ($R \leftarrow \gamma R$)，重复筛选和缩减步骤，直到 $R$ 足够小。
 * **复杂度与变种:** 其启发式时间复杂度约为 $2^{0.415n}$，空间复杂度约为 $2^{0.2075n}$。一些变种（如两级筛法）试图优化性能，但其“丢弃旧列表”的特性使其在实践中不如MV筛法流行。
 
@@ -97,7 +97,7 @@ MV筛法 (2010) 提出了两种重要的变体：ListSieve（可证明）和Gaus
 * **核心思想与步骤 (GaussSieve):**
   1. **初始化:** 维护一个列表 $L$（初始为空或包含基向量）和一个栈 $S$。
   2. **采样:** 从格中采样一个新向量 $\mathbf{v}$（通常使用Klein采样器）。
-  3. **缩减 $\mathbf{v}$:** 迭代地尝试用 $L$ 中的向量 $\mathbf{w}$ 去缩减 $\mathbf{v}$。如果找到一个 $\mathbf{w}$ 使得 $\|\mathbf{v} \pm \mathbf{w}\| < \|\mathbf{v}\|$，则用 $\mathbf{v} \pm \mathbf{w}$ 替换 $\mathbf{v}$ 并重新开始缩减过程。
+  3. **缩减 $\mathbf{v}$:** 迭代地尝试用 $L$ 中的向量 $\mathbf{w}$ 去缩减 $\mathbf{v}$。如果找到一个 $\mathbf{w}$ 使得 $\Vert\mathbf{v} \pm \mathbf{w}\Vert < \Vert\mathbf{v}\Vert$，则用 $\mathbf{v} \pm \mathbf{w}$ 替换 $\mathbf{v}$ 并重新开始缩减过程。
   4. **缩减 $L$:** 用稳定后的 $\mathbf{v}$ 去尝试缩减 $L$ 中的所有向量。如果某个 $\mathbf{w} \in L$ 被缩减，则将其从 $L$ 中移除并压入栈 $S$。
   5. **加入 $L$:** 将稳定后的 $\mathbf{v}$ 加入 $L$。
   6. **处理栈:** 如果栈 $S$ 不为空，则弹出一个向量并将其作为新的 $\mathbf{v}$ 返回步骤3。
