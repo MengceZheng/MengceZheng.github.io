@@ -71,6 +71,9 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
+- Michel Seck, Oumar Niang, Djiby Sow, Abderrahmane Nitaj, **Mengce Zheng**, Maher Boudabra. A New Generalized Attack on RSA-like Cryptosystems. In: *AFRICACRYPT* 2025. \| \[[ePrint](https://eprint.iacr.org/2025/380)\]
+- **Mengce Zheng**, Abderrahmane Nitaj. A Novel Partial Key Exposure Attack on Common Prime RSA. In: *AFRICACRYPT* 2025. \| \[[ePrint](https://eprint.iacr.org/2025/1282) [Code](https://github.com/MengceZheng/CPRSA_PKEA)\]
+- **Mengce Zheng**, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan. Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques. In: *ACISP* 2025. \| \[[ePrint](https://eprint.iacr.org/2025/1281) [Code](https://github.com/MengceZheng/RSA_CFL)\]
 - Hao Kang, **Mengce Zheng**. Generalized Cryptanalysis of Cubic Pell RSA. In: *Inscrypt* 2024. \| \[[ePrint](https://eprint.iacr.org/2024/2081) [Code](https://github.com/MengceZheng/GCPRSA)\]
 - **Mengce Zheng**, Wei Yan. Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem. In: *ACISP* 2024. \| \[[ePrint](https://eprint.iacr.org/2024/2080) [Code](https://github.com/MengceZheng/MLHRSP)\]
 - **Mengce Zheng**. Partial Key Exposure Attack on Common Prime RSA. In: *Inscrypt* 2023. \| \[[ePrint](https://eprint.iacr.org/2024/061) [Code](https://github.com/MengceZheng/PKEA_CPRSA)\]
@@ -88,6 +91,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 💬 Presentations
 
+- A Novel Partial Key Exposure Attack on Common Prime RSA, The 16th International Conference on the Theory and Applications of Security and Cryptography, Rabat, Morocco, 2025. \| \[[Slides](/docs/AFRICACRYPT25.pdf)\]
+- Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques, The 30th Australasian Conference on Information Security and Privacy, Wollongong, Australia, 2025. \| \[[Slides](/docs/ACISP25.pdf)\]
 - Lattice-Based Solving Strategy Using Coppersmith's Techniques and Its Applications, Crypto Seminar at the University of Caen Normandie, Caen, France, 2025. \| \[[Slides](/docs/UCaen25.pdf)\]
 - Generalized Cryptanalysis of Cubic Pell RSA, The 20th International Conference on Information Security and Cryptology, Kunming, China, 2024. \| \[[Slides](/docs/INSCRYPT24.pdf)\]
 - Improved Lattice-Based Attack on Mersenne Low Hamming Ratio Search Problem, The 29th Australasian Conference on Information Security and Privacy, Sydney, Australia, 2024. \| \[[Slides](/docs/ACISP24.pdf)\]
