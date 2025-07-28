@@ -16,13 +16,12 @@ layout: compress
 
     <div id="main" role="main">
       {% include sidebar.html %}
-
-      <h1>Mengce Zheng (郑梦策) | Cryptography & Information Security Research</h1>
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
+            <h1>Mengce Zheng (郑梦策) 🌏 Cryptography & Information Security</h1>
             {{ content }}
           </section>
         </div>
