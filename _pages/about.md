@@ -34,9 +34,7 @@ If you are interested in similar research and seeking any form of academic coope
 - *2025.09*: One paper entitled "New Lattice-Based Partial Key Exposure Attacks on Common Prime RSA" was accepted by *Journal of Cryptographic Engineering*.
 - *2025.05*: Two papers entitled "A New Generalized Attack on RSA-like Cryptosystems" and "A Novel Partial Key Exposure Attack on Common Prime RSA" were accepted by *AFRICACRYPT 2025*.
 - *2025.04*: One paper entitled "Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques" was accepted by *ACISP 2025*.
-- *2025.01*: One paper entitled "MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4" was accepted by *CHES 2025*.🎉
-- *2024.11*: One paper entitled "Generalized Cryptanalysis of Cubic Pell RSA" was accepted by *Inscrypt 2024*.
-- *2024.11*: I have come to France to visit the University of Caen Normandy and work with Prof. Nitaj. 🏰
+- *2025.01*: One paper entitled "MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4" was accepted by *CHES 2025*. 🎉
 
 ## 🧰 Projects
 
@@ -52,6 +50,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
+- **Mengce Zheng**. New lattice-based partial key exposure attacks on common prime RSA. *Journal of Cryptographic Engineering* 15, 19 (2025). \| \[[HTML](https://link.springer.com/article/10.1007/s13389-025-00383-7)\]
 - Fan Huang, Xiaolin Duan, Chengcong Hu, **Mengce Zheng**, Honggang Hu. MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2025(2), 23--68 (2025). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/12041) [PDF](/docs/HDH+25.pdf)\]
 - **Mengce Zheng**, Hao Kang. Lattice-based cryptanalysis of RSA-type cryptosystems: a bibliometric analysis. *Cybersecurity* 7: 74 (2024). \| \[[HTML](https://link.springer.com/article/10.1186/s42400-024-00289-7) [PDF](/docs/ZK24.pdf)\]
 - **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/docs/Zheng24b.pdf) [Code](https://github.com/MengceZheng/RSAPoly)\]
