@@ -22,7 +22,7 @@ date: 2024-12-15
 | 名称             | 版本   | 安装位置              |
 |------------------|--------|-----------------------|
 | SageMath         | 9.5    | 系统全局 (`/usr/bin`) |
-| SageMath         | 10.3   | miniforge 虚拟环境        |
+| SageMath         | 10.3   | miniforge 虚拟环境    |
 | Jupyter Client   | ≥7.0   | 虚拟环境              |
 
 ---
@@ -92,10 +92,12 @@ ls /usr/share/jupyter/kernels/sagemath/kernel.json
 
 ### 关键操作
 
+<!-- markdownlint-disable MD060 -->
 | 问题描述                 | 解决命令                                                                 |
 |--------------------------|--------------------------------------------------------------------------|
 | 路径冲突                 | `mv /usr/share/jupyter/kernels/sagemath /usr/share/jupyter/kernels/sagemath9.5` |
 | 环境变量覆盖             | 在 `kernel.json` 中显式指定虚拟环境的 Python 路径                        |
+<!-- markdownlint-enable MD060 -->
 
 ---
 
@@ -146,9 +148,9 @@ print(f"factor(10) = {factor(10)}")  # 应输出 2 * 5
 ### 预期输出
 
 | 内核名称       | `sage.version.version` | `ceil(3.14)` |
-|----------------|-------------------------|--------------|
-| SageMath 9.5   | 9.5                     | 4            |
-| SageMath 10.3  | 10.3                    | 4            |
+|----------------|------------------------|--------------|
+| SageMath 9.5   | 9.5                    | 4            |
+| SageMath 10.3  | 10.3                   | 4            |
 
 ---
 
