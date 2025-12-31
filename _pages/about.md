@@ -31,6 +31,7 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 🔥 News
 
+- *2025.12*: One paper entitled "SoK: A Generalized Attack on RSA and Its Variants" was accepted by *CT-RSA 2026*.
 - *2025.09*: One paper entitled "New Lattice-Based Partial Key Exposure Attacks on Common Prime RSA" was accepted by *Journal of Cryptographic Engineering*.
 - *2025.05*: Two papers entitled "A New Generalized Attack on RSA-like Cryptosystems" and "A Novel Partial Key Exposure Attack on Common Prime RSA" were accepted by *AFRICACRYPT 2025*.
 - *2025.04*: One paper entitled "Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques" was accepted by *ACISP 2025*.
