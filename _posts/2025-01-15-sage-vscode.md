@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "SageMath + VSCode 配置"
-date: 2024-12-15
 ---
 
 ---
@@ -92,12 +91,10 @@ ls /usr/share/jupyter/kernels/sagemath/kernel.json
 
 ### 关键操作
 
-<!-- markdownlint-disable MD060 -->
 | 问题描述                 | 解决命令                                                                 |
 |--------------------------|--------------------------------------------------------------------------|
 | 路径冲突                 | `mv /usr/share/jupyter/kernels/sagemath /usr/share/jupyter/kernels/sagemath9.5` |
 | 环境变量覆盖             | 在 `kernel.json` 中显式指定虚拟环境的 Python 路径                        |
-<!-- markdownlint-enable MD060 -->
 
 ---
 
