@@ -17,8 +17,8 @@ OpenSSH 自 9.0 版本（2022年4月）起已默认提供后量子密钥协商�
 
 为了鼓励向这些更强的算法迁移，**OpenSSH 10.1 将在用户选择了非后量子密钥协商方案时发出警告**，显示如下信息：
 
-> \*\* WARNING: connection is not using a post-quantum key exchange algorithm.
-> \*\* This session may be vulnerable to "store now, decrypt later" attacks.
+> \*\* WARNING: connection is not using a post-quantum key exchange algorithm.\
+> \*\* This session may be vulnerable to "store now, decrypt later" attacks.\
 > \*\* The server may need to be upgraded. See <https://openssh.com/pq.html>
 
 此警告默认显示，但可通过 [`ssh_config(5)`](https://man.openbsd.org/ssh_config.5) 中的 `WarnWeakCrypto` 选项关闭。
