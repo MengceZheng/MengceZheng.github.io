@@ -17,25 +17,26 @@ redirect_from:
 
 ## 👨‍💼 About Me
 
-I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/) and work as the head of the Cyber Security major.
+I am currently an Associate Professor at [Zhejiang Wanli University (ZWU)](https://www.zwu.edu.cn/).
 Before joining ZWU, I worked as a postdoctoral researcher at [School of Information Science and Technology](https://sist.ustc.edu.cn/main.htm) of [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) from 2018.12 to 2020.12 under collaboration with Prof. [Nenghai Yu (俞能海)](https://faculty.ustc.edu.cn/yunenghai/zh_CN/index.htm) and Prof. [Honggang Hu (胡红钢)](https://faculty.ustc.edu.cn/huhonggang/zh_CN/index.htm).
 
 From 2009.09 to 2018.11, I studied at USTC, where I received my bachelor's degree in 2013 and the doctoral degree in 2018, advised by Prof. Honggang Hu.
 I conducted academic visits at [The University of Tokyo (UTokyo)](https://www.u-tokyo.ac.jp/en/) from 2016.10 to 2017.09 under collaboration with Prof. [Noboru Kunihiro](https://www.crisec.cs.tsukuba.ac.jp/kunihiro/english/). I conducted academic visits at [University of Caen Normandy (UniCaen)](https://www.unicaen.fr/) from 2024.11 to 2025.10 under collaboration with Prof. [Abderrahmane Nitaj](https://nitaj.users.lmno.cnrs.fr/).
 
 My main research interests include cryptographic algorithms and their applications, including public-key cryptanalysis, side-channel analysis, quantum cryptographic protocols, etc.
-I have published more than 30 papers [![Google Scholar Citations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FMengceZheng%2FMengceZheng.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=WgoBZnkAAAAJ), in related journals and conferences such as SCIENCE CHINA Information Sciences, Theoretical Computer Science, Journal of Information Security and Applications, CHES, ACISP, etc.
+I have published more than 30 papers [![Google Scholar Citations](https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FMengceZheng%2FMengceZheng.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=WgoBZnkAAAAJ), in related journals and conferences such as SCIENCE CHINA Information Sciences, Theoretical Computer Science, Journal of Information Security and Applications, Asiacrypt, CHES, ACISP, etc.
 
 Further information on my experience and work can be found in my attached [**CV**](/docs/CV.pdf).
 If you are interested in similar research and seeking any form of academic cooperation, please feel free to email me at [mengce.zheng@gmail.com](mailto:mengce.zheng@gmail.com).
 
 ## 🔥 News
 
+- *2026.08*: One paper entitled "New Asymptotic Results on Predicting Polynomial Congruential Generators" was accepted by *Asiacrypt 2026*. 🎉🎉
+- *2026.06*: One paper entitled "A Hybrid Attack on Small Private Exponent RSA via Continued Fractions and Lattices" was accepted by *Cryptography*.
+- *2026.03*: One paper entitled "Vulnerability Analysis of Mersenne Number-Based Post-Quantum Cryptosystems in Secure Communication Networks" was accepted by *SecureComm 2026*.
+- *2026.02*: One paper entitled "A More Complete Cryptanalysis of the RSA-Polynomial Problem" was accepted by *Theoretical Computer Science*.
 - *2025.12*: One paper entitled "SoK: A Generalized Attack on RSA and Its Variants" was accepted by *CT-RSA 2026*.
 - *2025.09*: One paper entitled "New Lattice-Based Partial Key Exposure Attacks on Common Prime RSA" was accepted by *Journal of Cryptographic Engineering*.
-- *2025.05*: Two papers entitled "A New Generalized Attack on RSA-like Cryptosystems" and "A Novel Partial Key Exposure Attack on Common Prime RSA" were accepted by *AFRICACRYPT 2025*.
-- *2025.04*: One paper entitled "Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques" was accepted by *ACISP 2025*.
-- *2025.01*: One paper entitled "MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4" was accepted by *CHES 2025*. 🎉
 
 ## 🧰 Projects
 
@@ -51,6 +52,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
+- **Mengce Zheng**, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan. A Hybrid Attack on Small Private Exponent RSA via Continued Fractions and Lattices. *Cryptography* 10(3): 40 (2026). \| \[[HTML](https://www.mdpi.com/2410-387X/10/3/40)\]
+- **Mengce Zheng**, Abderrahmane Nitaj. A more complete cryptanalysis of the RSA-polynomial problem. *Theoretical Computer Science* 1070: 115837 (2026). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S0304397526000964)\]
 - **Mengce Zheng**. New lattice-based partial key exposure attacks on common prime RSA. *Journal of Cryptographic Engineering* 15, 19 (2025). \| \[[HTML](https://link.springer.com/article/10.1007/s13389-025-00383-7)\]
 - Fan Huang, Xiaolin Duan, Chengcong Hu, **Mengce Zheng**, Honggang Hu. MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2025(2), 23--68 (2025). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/12041) [PDF](/docs/HDH+25.pdf)\]
 - **Mengce Zheng**, Hao Kang. Lattice-based cryptanalysis of RSA-type cryptosystems: a bibliometric analysis. *Cybersecurity* 7: 74 (2024). \| \[[HTML](https://link.springer.com/article/10.1186/s42400-024-00289-7) [PDF](/docs/ZK24.pdf)\]
@@ -70,6 +73,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📖 Conference Proceedings
 
+- **Mengce Zheng**, Abderrahmane Nitaj. Vulnerability Analysis of Mersenne Number-Based Post-quantum Cryptosystems in Secure Communication Networks. In: *SecureComm* 2026.
+- **Mengce Zheng**, Abderrahmane Nitaj, Maher Boudabra, Michel Seck, Oumar Niang, Djiby Sow. SoK: A Generalized Attack on RSA and Its Variants. In: *CT-RSAC* 2026. \| \[[ePrint](https://eprint.iacr.org/2026/172)\]
 - Michel Seck, Oumar Niang, Djiby Sow, Abderrahmane Nitaj, **Mengce Zheng**, Maher Boudabra. A New Generalized Attack on RSA-like Cryptosystems. In: *AFRICACRYPT* 2025. \| \[[ePrint](https://eprint.iacr.org/2025/380)\]
 - **Mengce Zheng**, Abderrahmane Nitaj. A Novel Partial Key Exposure Attack on Common Prime RSA. In: *AFRICACRYPT* 2025. \| \[[ePrint](https://eprint.iacr.org/2025/1282) [Code](https://github.com/MengceZheng/CPRSA_PKEA)\]
 - **Mengce Zheng**, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan. Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques. In: *ACISP* 2025. \| \[[ePrint](https://eprint.iacr.org/2025/1281) [Code](https://github.com/MengceZheng/RSA_CFL)\]
