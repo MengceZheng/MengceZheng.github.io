@@ -32,6 +32,7 @@ If you are interested in similar research and seeking any form of academic coope
 ## 🔥 News
 
 - *2026.08*: One paper entitled "New Asymptotic Results on Predicting Polynomial Congruential Generators" was accepted by *Asiacrypt 2026*. 🎉🎉
+- *2026.06*: One paper entitled "Lattice-Based Cryptanalysis of Prime Power RSA: A Unified Framework for Linear Equations Modulo Unknown Divisors" was accepted by *INSCRYPT 2026*.
 - *2026.06*: One paper entitled "A Hybrid Attack on Small Private Exponent RSA via Continued Fractions and Lattices" was accepted by *Cryptography*.
 - *2026.03*: One paper entitled "Vulnerability Analysis of Mersenne Number-Based Post-Quantum Cryptosystems in Secure Communication Networks" was accepted by *SecureComm 2026*.
 - *2026.02*: One paper entitled "A More Complete Cryptanalysis of the RSA-Polynomial Problem" was accepted by *Theoretical Computer Science*.
@@ -52,9 +53,9 @@ If you are interested in similar research and seeking any form of academic coope
 
 ### 📃 Journal Articles
 
-- **Mengce Zheng**, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan. A Hybrid Attack on Small Private Exponent RSA via Continued Fractions and Lattices. *Cryptography* 10(3): 40 (2026). \| \[[HTML](https://www.mdpi.com/2410-387X/10/3/40)\]
-- **Mengce Zheng**, Abderrahmane Nitaj. A more complete cryptanalysis of the RSA-polynomial problem. *Theoretical Computer Science* 1070: 115837 (2026). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S0304397526000964)\]
-- **Mengce Zheng**. New lattice-based partial key exposure attacks on common prime RSA. *Journal of Cryptographic Engineering* 15, 19 (2025). \| \[[HTML](https://link.springer.com/article/10.1007/s13389-025-00383-7)\]
+- **Mengce Zheng**, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan. A Hybrid Attack on Small Private Exponent RSA via Continued Fractions and Lattices. *Cryptography* 10(3): 40 (2026). \| \[[HTML](https://www.mdpi.com/2410-387X/10/3/40) [PDF](/docs/ZFN+26.pdf)\]
+- **Mengce Zheng**, Abderrahmane Nitaj. A more complete cryptanalysis of the RSA-polynomial problem. *Theoretical Computer Science* 1070: 115837 (2026). \| \[[HTML](https://www.sciencedirect.com/science/article/abs/pii/S0304397526000964) [PDF](/docs/ZN26.pdf)\]
+- **Mengce Zheng**. New lattice-based partial key exposure attacks on common prime RSA. *Journal of Cryptographic Engineering* 15, 19 (2025). \| \[[HTML](https://link.springer.com/article/10.1007/s13389-025-00383-7) [PDF](/docs/Zheng25.pdf)\]
 - Fan Huang, Xiaolin Duan, Chengcong Hu, **Mengce Zheng**, Honggang Hu. MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4. *IACR Transactions on Cryptographic Hardware and Embedded Systems* 2025(2), 23--68 (2025). \| \[[HTML](https://tches.iacr.org/index.php/TCHES/article/view/12041) [PDF](/docs/HDH+25.pdf)\]
 - **Mengce Zheng**, Hao Kang. Lattice-based cryptanalysis of RSA-type cryptosystems: a bibliometric analysis. *Cybersecurity* 7: 74 (2024). \| \[[HTML](https://link.springer.com/article/10.1186/s42400-024-00289-7) [PDF](/docs/ZK24.pdf)\]
 - **Mengce Zheng**. Revisiting RSA-polynomial problem and semiprime factorization. *Theoretical Computer Science* 1004: 114634 (2024). \| \[[HTML](https://www.sciencedirect.com/science/article/pii/S0304397524002494) [PDF](/docs/Zheng24b.pdf) [Code](https://github.com/MengceZheng/RSAPoly)\]
@@ -95,6 +96,8 @@ If you are interested in similar research and seeking any form of academic coope
 
 ## 💬 Presentations
 
+- Vulnerability Analysis of Mersenne Number-Based Post-quantum Cryptosystems in Secure Communication Networks, The 22nd EAI International Conference on Security and Privacy in Communication Networks, Lancaster, United Kingdom (Hybrid), 2026. \| \[[Slides](/docs/SecureComm26.pdf)\]
+- SoK: A Generalized Attack on RSA and Its Variants, Cryptographers' Track at the RSAC 2026 Conference, San Francisco, CA, USA, 2026. \| \[[Slides](/docs/CTRSAC26.pdf)\]
 - A Novel Partial Key Exposure Attack on Common Prime RSA, The 16th International Conference on the Theory and Applications of Security and Cryptography, Rabat, Morocco, 2025. \| \[[Slides](/docs/AFRICACRYPT25.pdf)\]
 - Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques, The 30th Australasian Conference on Information Security and Privacy, Wollongong, Australia, 2025. \| \[[Slides](/docs/ACISP25.pdf)\]
 - Lattice-Based Solving Strategy Using Coppersmith's Techniques and Its Applications, Crypto Seminar at the University of Caen Normandie, Caen, France, 2025. \| \[[Slides](/docs/UCaen25.pdf)\]
