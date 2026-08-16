@@ -3,7 +3,8 @@ name: Get Citation Data
 on:
   page_build:
   schedule:
-    - cron: '0 8 * * *'  # 可根据需求调整频率
+    # 错峰：每天 7-9 点之间随机分钟触发，避免与大量 workflow 同时打向 Google Scholar
+    - cron: '7,23,41,59 7-8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -36,15 +37,22 @@ jobs:
         python main.py
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        # 可选：SerpAPI 免费 key（100 次/月），稳定绕过 Google Scholar 限流。未设置则回退 scholarly 直连。
+        SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
     - name: Push results to repository
       run: |
         cd ./google_scholar_crawler/results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Updated Citation Data"
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
+        fi
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
